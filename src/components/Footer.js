@@ -147,7 +147,11 @@ export default function Footer() {
         <div className="container">
           <PText>
             © 2021 - Shakil Ops | Designed By{' '}
-            <a target="_blank" rel="noreferrer" href="#">
+            <a
+              target="_blank"
+              rel="noreferrer"
+              href="https://github.com/ShakilOps"
+            >
               Shakil Ops
             </a>{' '}
           </PText>
