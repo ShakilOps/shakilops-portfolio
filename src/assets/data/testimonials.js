@@ -5,7 +5,7 @@ const testimonials = [
     title: 'Chairman, Dept. of CSE',
     org: 'IUBAT',
     desc:
-      'Shakil is a person of commitment. He is really good at what he is doing. Especially Shakil awarded two times for “Academic Excellence” in IUBAT University.',
+      'Shakil is a person of commitment. He is really good at what he is doing. Specially Shakil awarded two times for “Academic Excellence” in our University.',
   },
   {
     id: 2,

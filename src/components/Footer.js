@@ -59,9 +59,10 @@ export default function Footer() {
         <div className="footer__col1">
           <h1 className="footer__col1__title">Shakil Ops</h1>
           <PText>
-            I wanna utilize my preexisting skills in software engineering,
-            database management, business intelligence, software quality
-            assurance and gain experience of working as part of a team.
+            I wanna utilize my preexisting skills in business communication,
+            software engineering, database management, business intelligence,
+            software quality assurance and gain experience of working as part of
+            a team.
           </PText>
         </div>
         <div className="footer__col2">

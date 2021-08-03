@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-import MapImg from '../assets/images/map.png';
+import MapImg from '../assets/images/map.jpg';
 import PText from './PText';
 
 const MapStyles = styled.div`
@@ -52,7 +52,7 @@ export default function Map() {
           <PText>Bashundhara, Dhaka, Bangladesh</PText>
           <a
             className="map__card__link"
-            href="https://www.google.com.bd/maps/place/Basundhara+Residential+Area,+Dhaka/@23.8195432,90.4368458,14z/data=!3m1!4b1!4m5!3m4!1s0x3755c62fce7d991f:0xacfaf1ac8e944c05!8m2!3d23.8191441!4d90.4525954?hl=en&authuser=0"
+            href="https://www.google.com.bd/maps/place/Block+B,Road-4,Basundara+Residential+Area/@23.8140147,90.4251291,17z/data=!3m1!4b1!4m5!3m4!1s0x3755c7e797ecd469:0x43dda46346831716!8m2!3d23.8140217!4d90.4273165?hl=en&authuser=0"
             target="_blank"
             rel="noreferrer"
           >

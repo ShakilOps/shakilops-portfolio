@@ -1,45 +1,45 @@
 import { v4 as uuidv4 } from 'uuid';
-import ProjectImg from '../images/projectImg.png';
-import UTrackerImg from '../images/utracker.jpg';
-import GreenCtgImg from '../images/greenctg.jpg';
-import CoinTrackerImg from '../images/cointracker.jpg';
-import CavinImg from '../images/cavinimg.jpg';
+import MemoriesImg from '../images/memories.png';
+import ExpenseImg from '../images/expense.PNG';
+import COVIDImg from '../images/COVID.png';
+import TemperatureImg from '../images/temperature.PNG';
+import CryptoImg from '../images/crypto.PNG';
 
 const projects = [
   {
     id: uuidv4(),
-    name: 'U Tracker',
+    name: 'Memories',
     desc:
-      'An application to track your all data from one place. I developed the website and the mobile app',
-    img: UTrackerImg,
+      'The App is called "Memories" and it is a simple social media MERN application that allows users to post interesting events that happened in their lives.',
+    img: MemoriesImg,
   },
   {
     id: uuidv4(),
-    name: 'Green CTG',
+    name: 'Expense Tracker',
     desc:
-      'An app to help people to get an overview of how they can make the city beautiful.',
-    img: GreenCtgImg,
+      'In this expense racker project I used full stack MERN app by adding a backend API with Express and MongoDB.',
+    img: ExpenseImg,
   },
   {
     id: uuidv4(),
     name: 'COVID-19 Tracker',
     desc:
       'The project fetched the live data from the API using Async/Await syntax. I used here React with the addition of Charts.js, Material UI, and many different modules. ',
-    img: CoinTrackerImg,
+    img: COVIDImg,
   },
   {
     id: uuidv4(),
     name: 'Temperature Hot',
     desc:
       'Weather app in React JS, I used here the Modern Javascript Fetch API along with React hooks and conditonals.',
-    img: CavinImg,
+    img: TemperatureImg,
   },
   {
     id: uuidv4(),
-    name: 'Tracking Soft',
+    name: 'CryptoCurrency Tracker',
     desc:
-      'A tracking website that will show the performance of the website. Also you will get some useful advice to improve the performance.',
-    img: ProjectImg,
+      'A simple Bitcoin cryptocurrency finance price tracker app using React and Next JS. I used here a crypto API to get the data.',
+    img: CryptoImg,
   },
 ];
 
