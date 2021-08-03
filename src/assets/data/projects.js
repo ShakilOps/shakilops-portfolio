@@ -2,6 +2,7 @@ import { v4 as uuidv4 } from 'uuid';
 import MemoriesImg from '../images/memories.png';
 import ExpenseImg from '../images/expense.PNG';
 import COVIDImg from '../images/COVID.png';
+import ChatImg from '../images/chat.jpg';
 import TemperatureImg from '../images/temperature.PNG';
 import CryptoImg from '../images/crypto.PNG';
 
@@ -29,10 +30,10 @@ const projects = [
   },
   {
     id: uuidv4(),
-    name: 'Temperature Hot',
+    name: 'Chat Application',
     desc:
-      'Weather app in React JS, I used here the Modern Javascript Fetch API along with React hooks and conditonals.',
-    img: TemperatureImg,
+      'I created a full Realtime Chat Application and used here React on the front end, with NodeJS + Socket.io web socket library on the back end. ',
+    img: ChatImg,
   },
   {
     id: uuidv4(),
@@ -40,6 +41,13 @@ const projects = [
     desc:
       'A simple Bitcoin cryptocurrency finance price tracker app using React and Next JS. I used here a crypto API to get the data.',
     img: CryptoImg,
+  },
+  {
+    id: uuidv4(),
+    name: 'Temperature Hot',
+    desc:
+      'Weather app in React JS, I used here the Modern Javascript Fetch API along with React hooks and conditonals.',
+    img: TemperatureImg,
   },
 ];
 
