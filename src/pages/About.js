@@ -120,7 +120,7 @@ export default function About() {
                 items={['Govt. Kalachandpur High School, Dhaka']}
               />
               <AboutInfoItem
-                title="Collage"
+                title="College"
                 items={['Govt. Science College, Dhaka']}
               />
               <AboutInfoItem title="Varsity" items={['IUBAT']} />
