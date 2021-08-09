@@ -18,7 +18,7 @@ const projects = [
     id: uuidv4(),
     name: 'Expense Tracker',
     desc:
-      'In this expense racker project I used full stack MERN app by adding a backend API with Express and MongoDB.',
+      'In this expense tracker project I used full stack MERN app by adding a backend API with Express and MongoDB.',
     img: ExpenseImg,
   },
   {

@@ -129,19 +129,26 @@ export default function About() {
               <h1 className="about__info__heading">My Skills</h1>
 
               <AboutInfoItem
-                title="FrontEnd"
-                items={['HTML', 'CSS', 'JavaScript', 'REACT']}
+                title="Languages"
+                items={['C', 'C++', 'JavaScript']}
               />
               <AboutInfoItem
-                title="BackEnd"
-                items={['Node', 'Express', 'Mongo']}
+                title="Frameworks"
+                items={['React.js', 'Node.js', 'Express.js', 'Material-UI']}
               />
               <AboutInfoItem
-                title="Networking"
+                title="Database"
+                items={['MongoDB', 'MYSQL', 'SQL Server']}
+              />
+              <AboutInfoItem
+                title="Others"
                 items={[
-                  'Network Access',
-                  'IP Service',
-                  'Automation and programmability',
+                  'HTML5',
+                  'CSS',
+                  'Bootstrap4',
+                  'Rest API',
+                  'Github',
+                  'Heroku',
                 ]}
               />
             </div>
@@ -150,9 +157,12 @@ export default function About() {
 
               <AboutInfoItem
                 title="2020"
-                items={['MERN Developer, Programming-Hero']}
+                items={['IT Executive, IUBAT IT Society']}
               />
-              <AboutInfoItem title="2021" items={['Intern at kodeeo']} />
+              <AboutInfoItem
+                title="2021"
+                items={['MERN Developer Intern, Programming-Hero.com']}
+              />
               <AboutInfoItem
                 title="Aug, 2021 -"
                 items={['CCNA(200-301), AIUB']}
